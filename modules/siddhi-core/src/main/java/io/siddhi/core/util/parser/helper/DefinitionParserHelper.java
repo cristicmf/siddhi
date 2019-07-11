@@ -337,7 +337,7 @@ public class DefinitionParserHelper {
                             getSourceHandlerManager();
                     SourceHandler sourceHandler = null;
                     if (sourceHandlerManager != null) {
-                        sourceHandler = sourceHandlerManager.generateSourceHandler(sourceType);
+                        sourceHandler = sourceHandlerManager.generateSourceHandler();
                     }
                     // load input transport extension
                     Extension sourceExtension = constructExtension(streamDefinition, SiddhiConstants.ANNOTATION_SOURCE,
